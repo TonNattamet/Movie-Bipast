@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Athiti', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100% ;
+    height: 109vh;
+    background: linear-gradient(180deg, #2e2e2e 0%, #000000 100%);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: 'Roboto';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+    color: grey;
+}
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 300px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #d2dae2;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:red;
+    border: 2px solid red;
+    margin-top: 13px;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
